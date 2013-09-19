@@ -11,6 +11,10 @@
   width: 720px;
 }
 
+.container header {
+  border-bottom: solid 3px #eee;
+}
+
 small.page_no {
   float: right;
   color: #ddd;
@@ -29,3 +33,17 @@ small.page_no {
 .pagination a.disabled {
   color: #ccc;
 }
+
+.content p, blockquote {
+  font-family: serif;
+  line-height: 140%;
+}
+
+.content blockquote {
+  font-style: italic;
+}
+
+.content h3 {
+  padding-top: 25px;
+}
+
